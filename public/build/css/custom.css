@@ -802,7 +802,7 @@
   content: "\e260"; }
 
 .left_col {
-  background: #2A3F54; }
+  background: #3691ED; }
 
 .container {
   width: 100%;
@@ -817,7 +817,7 @@
   position: absolute; }
 
 .nav-sm .container.body .col-md-3.left_col.menu_fixed {
-  position: fixed;
+  position: absolue;
   height: 100%; }
 
 .nav-sm .container.body .col-md-3.left_col .mCSB_container,
@@ -1031,7 +1031,7 @@ body .container.body .right_col {
 .nav_title {
   width: 230px;
   float: left;
-  background: #2A3F54;
+  background: #2C87E3;
   border-radius: 0;
   height: 57px;
   padding: 0px; }
@@ -1152,11 +1152,12 @@ body .container.body .right_col {
 
 body {
   color: #73879C;
-  background: #2A3F54;
+  background: #3691ED;
   font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  line-height: 1.471; }
+  width: 100%;
+  line-height: 100%; }
 
 .main_container .top_nav {
   display: block;
